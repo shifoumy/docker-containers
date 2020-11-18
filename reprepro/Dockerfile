@@ -9,4 +9,8 @@ RUN apt install -y reprepro vim apt-transport-https ca-certificates \
     lsb-release\
     wget
 
+RUN mkdir -p /var/www/repo
+RUN mkdir -p /var/www/repo/conf
+RUN mkdir -p /var/www/repo/incomming
+
 entrypoint ["/bin/bash"]

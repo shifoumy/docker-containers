@@ -14,7 +14,6 @@ RUN apt install -y gcc debhelper\
         debootstrap\ 
         python-pip
 
-RUN mkdir /code/
 WORKDIR /code/
 
 ENTRYPOINT ["/bin/bash"]
