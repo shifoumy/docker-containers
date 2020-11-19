@@ -1,6 +1,5 @@
-
-cker Container repository
--------------------------
+Docker Container repository
+---------------------------
 
 Repository for images docker files.
 
