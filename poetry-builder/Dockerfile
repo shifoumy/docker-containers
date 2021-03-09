@@ -13,4 +13,4 @@ RUN curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-
 RUN mkdir /home/poetry/code/
 WORKDIR /home/poetry/code/
 ENV PATH="$POETRY_HOME/bin:$VENV_PATH/bin:$PATH"
-ENTRYPOINT python
+ENTRYPOINT poetry
