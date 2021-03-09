@@ -11,7 +11,13 @@ Poetry binary installed at `/home/poetry/.poetry/bin`
 
 Entrypoint is set to `poetry` command
 
-Usage:
-------
+Usages:
+-------
 
+Build image :
+=============
+`docker build -t my_tag:version .`
+
+Run container :
+===============
 `docker run -v [path to your project]:/home/poetry/code/ ashamss/poetry [poetry cmd]`
